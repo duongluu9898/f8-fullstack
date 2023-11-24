@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="order-form">
+      <!-- code CSS -->
+      <style>
+        /* order-form */
+        .order-form {
+          width: 50%;
+          padding: 4px 0px 12px 12px;
+          background-color: #e7e7e7;
+        }
+
+        /* group */
+        table {
+          margin-top: 24px;
+        }
+
+        input {
+          width: 280px;
+          height: 22px;
+          padding: 8px;
+        }
+
+        select {
+          width: 298px;
+          height: 40px;
+        }
+
+        .optional {
+          opacity: 0.3;
+        }
+
+        /* button */
+        .button {
+          margin-top: 16px;
+          padding: 12px 32px;
+          color: #fff;
+          background-color: #3a6975;
+          border: none;
+          border-radius: 4px;
+        }
+      </style>
+
+      <!-- code html -->
+      <h1>Try a free sample</h1>
+      <p>
+        The left-back was absent for his nation's Euro 2024 qualifier with
+        <br />
+        France on Tuesday night, having appeared in their win against New
+        Zealand
+        <br />
+        in a friendly last week. Tsimikas is now back at the AXA Training Centre
+        as <br />
+        he prepares for Liverpool's trip to Manchester City in the Premier
+        League on <br />
+        Saturday lunchtime.
+      </p>
+      <table border="0" cellspacing="8" width="100%">
+        <!-- group1 -->
+        <tr>
+          <th style="text-align: left">
+            <label for="first-name">First name</label>
+          </th>
+          <th style="text-align: left">
+            <label for="last-name">Last name</label>
+          </th>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="text" id="first-name" placeholder="John" />
+          </td>
+          <td>
+            <input type="text" id="last-name" placeholder="Smith" />
+          </td>
+        </tr>
+
+        <!-- group2 -->
+        <tr>
+          <th style="text-align: left">
+            <label for="email-address">Email address</label>
+          </th>
+          <th style="text-align: left">
+            <label for="address">Address</label>
+          </th>
+        </tr>
+
+        <tr>
+          <td>
+            <input
+              type="email"
+              id="email-address"
+              placeholder="John@google.com"
+            />
+          </td>
+          <td><input type="text" id="address" placeholder="Silk St" /></td>
+        </tr>
+
+        <!-- group3 -->
+        <tr>
+          <th style="text-align: left">
+            <label for="city">City</label>
+          </th>
+          <th style="text-align: left">
+            <label for="state"
+              >State
+              <span class="optional">(optional)</span>
+            </label>
+          </th>
+        </tr>
+
+        <tr>
+          <td><input type="text" id="city" placeholder="London" /></td>
+          <td><input type="text" id="state" placeholder="" /></td>
+        </tr>
+
+        <!-- group4 -->
+        <tr>
+          <th style="text-align: left">
+            <label for="zipcode">Zip code</label>
+          </th>
+          <th style="text-align: left">
+            <label for="country">Country</label>
+          </th>
+        </tr>
+
+        <tr>
+          <td><input type="text" id="zipcode" placeholder="EC2Y 8DS" /></td>
+          <td>
+            <select name="country" id="country">
+              <option value="vietnam">Vietnam</option>
+              <option value="japan">Japan</option>
+              <option value="china">China</option>
+              <option value="USA">USA</option>
+              <option value="russia">Russia</option>
+              <option value="lao">Lao</option>
+              <option value="france">France</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <button class="button">SEND ME FREE COFFEE</button>
+    </section>
+  </body>
+</html>
